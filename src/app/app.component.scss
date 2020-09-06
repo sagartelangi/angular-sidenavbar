@@ -1,0 +1,72 @@
+.mat-drawer-container {
+  width: 100%;
+  height: 100%;
+}
+
+.mat-sidenav {
+  width: 15%;
+
+}
+
+.mat-toolbar {
+  padding: 0;
+  height: 50px;
+}
+
+.list-options{
+  height: 25px !important;
+}
+
+.mat-sidenav-content {
+  background-image: url('../assets/signify-background.jpg');
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.mat-icon-button {
+  margin-left: 15px;
+  min-width: 0;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: transparent;
+  border: 0px;
+  border-radius: 50%;
+  color: #fff;
+
+  &:focus{
+    outline: 0px;
+    background: #3F519B;
+  }
+}
+
+.profile-pic {
+  padding-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+.span-text {
+  padding: 0 20px;
+}
+
+.img-item{
+  padding-top: 10px;
+  height: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+.mat-card {
+  max-width: 275px;
+}
+
+.mat-header-image {
+  background-image: url('../assets/signify-logo.jpg');
+  background-size: cover;
+}
