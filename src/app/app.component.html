@@ -15,12 +15,12 @@
         aria-label="Example icon-button with menu icon">
         <mat-icon (click)="drawer.toggle()">menu</mat-icon>
       </button>
-      <span><img class="img-item" src="../assets/signify.png"></span>
+      <span><img class="img-item" src="assets/signify.png"></span>
     </mat-toolbar>
     <div *ngIf="user.selectedOptions.selected[0] && drawer.opened" class="card-container">
       <mat-card class="mat-card">
         <mat-card-header>
-          <div mat-card-avatar class="mat-header-image"></div>
+          <img mat-card-avatar [src]="(user.selectedOptions.selected[0])?.value.countryflag" class="mat-header-image">
           <mat-card-title>{{user.selectedOptions.selected[0]?.value.name}}</mat-card-title>
           <mat-card-subtitle>{{user.selectedOptions.selected[0]?.value.location}}</mat-card-subtitle>
         </mat-card-header>

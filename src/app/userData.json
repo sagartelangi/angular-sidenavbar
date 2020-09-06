@@ -3,36 +3,36 @@
         "name": "India",
         "location": "Country in South Asia",
         "description": "India, officially the Republic of India, is a country in South Asia. It is the second-most populous country, the seventh-largest country by land area, and the most populous democracy in the world.",
-        "countryflag": "../assets/india.png"
+        "countryflag": "assets/india.png"
     },
     {
         "name": "Canada",
         "location": "Country in North America",
         "description": "Canada is a country in the northern part of North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres, making it the world's second-largest country by total area.",
-        "countryflag": "../assets/canada.png"
+        "countryflag": "assets/canada.png"
     },
     {
         "name": "United States",
         "location": "Country in North America",
         "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC.",
-        "countryflag": "../assets/us.png"
+        "countryflag": "assets/us.png"
     },
     {
         "name": "Brazil",
         "location": "Country in South America",
         "description": "Brazil, officially the Federative Republic of Brazil, is the largest country in both South America and Latin America. At 8.5 million square kilometers and with over 211 million people, Brazil is the world's fifth-largest country by area and the sixth most populous.",
-        "countryflag": "../assets/brazil.png"
+        "countryflag": "assets/brazil.png"
     },
     {
         "name": "Germany",
         "location": "Country in Europe",
         "description": "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII.",
-        "countryflag": "../assets/germany.png"
+        "countryflag": "assets/germany.png"
     },
     {
-        "name": "England",
-        "location": "Country of the United Kingdom",
-        "description": "England is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south.",
-        "countryflag": "../assets/canada.png"
+        "name": "Thailand",
+        "location": "Country in Asia",
+        "description": "Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple.",
+        "countryflag": "assets/thailand.png"
     }
 ]
