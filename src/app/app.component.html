@@ -9,7 +9,6 @@
       </mat-list-option>
     </mat-selection-list>
   </mat-drawer>
-
   <div class="mat-sidenav-content">
     <mat-toolbar color="primary">
       <button *ngIf="!drawer.opened" mat-icon-button class="mat-icon-button"
@@ -18,12 +17,6 @@
       </button>
       <span><img class="img-item" src="../assets/signify.png"></span>
     </mat-toolbar>
-    <!-- <img *ngIf="user.selectedOptions.selected[0]" class="profile-pic"
-      [src]="(user.selectedOptions.selected[0])?.value.profilepic">
-    <h4>{{user.selectedOptions.selected[0]?.value.name}}</h4>
-    <h4>{{user.selectedOptions.selected[0]?.value.email}}</h4>
-    <h4>{{user.selectedOptions.selected[0]?.value.age}}</h4> -->
-
     <div *ngIf="user.selectedOptions.selected[0] && drawer.opened" class="card-container">
       <mat-card class="mat-card">
         <mat-card-header>

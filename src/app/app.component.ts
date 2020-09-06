@@ -9,9 +9,5 @@ import { Users } from './users';
 })
 export class AppComponent {
   title = 'sidenavbar-exercise';
-  typesOfShoes: string[] = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
   data: Users = (userData as any).default;
-  ngOnInit() {
-    console.log(this.data);
-  }
 }
